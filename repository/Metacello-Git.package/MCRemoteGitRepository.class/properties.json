@@ -1,0 +1,14 @@
+{
+	"category" : "Metacello-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"remoteUrl" ],
+	"name" : "MCRemoteGitRepository",
+	"pools" : [
+		 ],
+	"super" : "MCGitRepository",
+	"type" : "normal" }

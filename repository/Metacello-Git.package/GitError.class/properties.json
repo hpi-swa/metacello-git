@@ -1,0 +1,14 @@
+{
+	"category" : "Metacello-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"command" ],
+	"name" : "GitError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

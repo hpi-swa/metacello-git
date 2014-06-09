@@ -1,0 +1,15 @@
+{
+	"category" : "Metacello-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GitPassword",
+		"GitUsername" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCGithubRepository",
+	"pools" : [
+		 ],
+	"super" : "MCRemoteGitRepository",
+	"type" : "normal" }
