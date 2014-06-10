@@ -6,7 +6,7 @@ basicStoreVersion: aVersion
 		self gitCommand: 'commit -m "' , aVersion info message , '" -m "Squeak version: ' , aVersion info name , '"'.
 	] on: GitError
 	do: [ :exc |
-		self class ensureContactInfo ifTrue: [
+		self ensureContactInfo ifTrue: [
 			exc retry.
 		].
 	]
