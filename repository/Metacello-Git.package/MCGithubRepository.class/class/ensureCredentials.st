@@ -12,5 +12,7 @@ ensureCredentials
 		GitPassword ifNil: [ ^false ].
 		store := FileStream fileNamed: storeName.
 		store nextPutAll: 'https://' , GitUsername , ':' , GitPassword  , '@github.com'; lf.
+		self gitCommand: 'config --local user.name "' , GitUsername , '"'.
+		self gitCommand: 'config --local user.email "fixme@example.com"'.
 	].
 	^ true.
