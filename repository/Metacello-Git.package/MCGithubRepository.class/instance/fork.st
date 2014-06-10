@@ -1,5 +1,12 @@
 overriding
 fork
-	"XXX fix in Windows"
-	OSProcess waitForCommand: 'cd ' , directory pathName , '; GIT_USERNAME=' , GitUsername , ' GIT_PASSWORD=' , GitPassword , ' hub fork --no-remote'.
-	self gitCommand: 'remote set-url origin https://github.com/' , GitUsername , '/' , self project.
+	| envPrefix |
+	OSProcess isWindows ifTrue: [
+		envPrefix := 'set GIT_USERNAME=' , GitUsername , ' && set GIT_PASSWORD=' , GitPassword , ' &&'.
+	] ifFalse: [
+		envPrefix := 'GIT_USERNAME=' , GitUsername , ' GIT_PASSWORD=' , GitPassword.
+	].
+	"&& is carefully chosen to work on Windows and Unix"
+	OSProcess waitForCommand: 'cd ' , directory pathName , ' && ' , envPrefix , ' hub fork'.
+	"XXX maybe not override origin"
+	self gitCommand: 'remote set-url origin https://github.com/' , GitUsername , '/' , (self project: GitUsername).

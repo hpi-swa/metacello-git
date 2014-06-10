@@ -1,3 +1,3 @@
-accessing
+displaying
 description
 	 ^ 'git:/' , directory pathName

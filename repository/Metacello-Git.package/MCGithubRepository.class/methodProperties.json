@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"description" : "rl 6/9/2014 19:05" },
+		"description" : "rl 6/9/2014 19:05",
+		"ensureCredentials" : "rl 6/10/2014 16:30",
+		"resetCredentials" : "rl 6/10/2014 16:30" },
 	"instance" : {
-		"basicStoreVersion:" : "rl 6/9/2014 20:35",
-		"ensureCredentials" : "rl 6/9/2014 20:17",
-		"fork" : "rl 6/9/2014 20:42",
-		"project" : "rl 6/9/2014 20:41" } }
+		"basicStoreVersion:" : "rl 6/10/2014 16:31",
+		"fork" : "rl 6/10/2014 16:33",
+		"project:" : "rl 6/10/2014 16:24" } }

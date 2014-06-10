@@ -1,3 +1,3 @@
-accessing
+displaying
 updateString
-	^ 'Pulling from ' , remoteUrl , '...'.
+	^ 'Pulling' , (remoteUrl ifNotNil: [ :s | ' from ', s ]) , '...'.

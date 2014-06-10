@@ -1,4 +1,4 @@
-as yet unclassified
+authorization
 ensureCredentials
 	| storeName |
 	storeName := Smalltalk imageName , '.github-cred'.
@@ -6,7 +6,11 @@ ensureCredentials
 	GitUsername ifNil: [
 		| store |
 		GitUsername := FillInTheBlank request: 'Github username?'.
+		GitUsername ifNil: [ ^false ].
 		GitPassword := FillInTheBlank requestPassword: 'Github password?'.
+
+		GitPassword ifNil: [ ^false ].
 		store := FileStream fileNamed: storeName.
 		store nextPutAll: 'https://' , GitUsername , ':' , GitPassword  , '@github.com'; lf.
 	].
+	^ true.
