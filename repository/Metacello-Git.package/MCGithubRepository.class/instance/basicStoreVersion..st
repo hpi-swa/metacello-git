@@ -1,6 +1,6 @@
 overriding
 basicStoreVersion: aVersion
-	self gitCommand: 'config --local core.askpass=echo'.
+	self gitCommand: 'config --local core.askpass echo'.
 	[ super basicStoreVersion: aVersion ]
 		on: GitError
 		do: [ :exc |
@@ -8,5 +8,5 @@ basicStoreVersion: aVersion
 				self class ensureCredentials.
 				self fork.
 				self gitCommand: 'push'.
-			]
+			] ifFalse: [exc signal].
 		].
