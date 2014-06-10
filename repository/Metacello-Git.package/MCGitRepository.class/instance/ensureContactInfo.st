@@ -1,4 +1,4 @@
-accessing
+authorization
 ensureContactInfo
 	GitUser ifNil: [
 		GitUser := FillInTheBlank request: 'Git user?'.
