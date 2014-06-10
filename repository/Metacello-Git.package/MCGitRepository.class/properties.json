@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"GitEmail",
+		"GitUser" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
