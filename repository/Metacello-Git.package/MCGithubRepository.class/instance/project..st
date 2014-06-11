@@ -1,4 +1,4 @@
-overriding
+github
 project: aRemoteName
 	| file url |
 	file := directory pathName, FileDirectory slash, '.git', FileDirectory slash, 'githubProject'.
