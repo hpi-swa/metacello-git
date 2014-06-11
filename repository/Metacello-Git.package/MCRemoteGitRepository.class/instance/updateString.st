@@ -1,3 +1,3 @@
 displaying
 updateString
-	^ 'Pulling' , (remoteUrl ifNotNil: [ :s | ' from ', s ]) , '...'.
+	^ 'Pulling' , (remoteUrl ifNotNil: [ :s | ' from ', s ] ifNil: ['']) , '...'.

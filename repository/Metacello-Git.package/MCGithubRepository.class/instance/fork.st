@@ -7,6 +7,6 @@ fork
 		envPrefix := 'GIT_USERNAME=' , GitUsername , ' GIT_PASSWORD=' , GitPassword.
 	].
 	"&& is carefully chosen to work on Windows and Unix"
-	OSProcess waitForCommand: 'cd ' , directory pathName , ' && ' , envPrefix , ' hub fork'.
+	self osCommand: 'cd ' , directory pathName , ' && ' , envPrefix , ' hub fork'.
 	"XXX maybe not override origin"
 	self gitCommand: 'remote set-url origin https://github.com/' , GitUsername , '/' , (self project: GitUsername).

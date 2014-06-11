@@ -3,7 +3,7 @@ gitCommand: aString
 	| proc cmdLine |
 	cmdLine := 'git -C "' , directory pathName , '" ' , aString.
 	FileStream stdout nextPutAll: cmdLine; cr; flush.
-	proc := OSProcess waitForCommand: cmdLine.
+	proc := self osCommand: cmdLine.
 	(proc exitStatus == 0) ifFalse: [
 		| cmd |
 		cmd := aString upTo: ($ ).
