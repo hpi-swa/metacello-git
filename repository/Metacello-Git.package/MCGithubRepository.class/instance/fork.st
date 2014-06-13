@@ -8,6 +8,6 @@ fork
 	].
 	"&& is carefully chosen to work on Windows and Unix"
 	self gitCommand: 'config hub.protocol https'.
-	self osCommand: 'cd ' , directory pathName , ' && ' , envPrefix , ' hub fork'.
-	"XXX maybe not override origin"
+	self osCommand: 'cd ' , directory pathName , ' && ' , envPrefix , ' hub fork --no-remote'.
+	self osCommand: 'cd ' , directory pathName , ' && hub fetch ' , GitUsername.
 	self gitCommand: 'branch --set-upstream-to ', GitUsername , '/master'.
