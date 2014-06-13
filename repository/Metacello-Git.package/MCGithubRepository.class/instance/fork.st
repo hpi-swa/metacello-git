@@ -2,9 +2,9 @@ github
 fork
 	| envPrefix |
 	OSProcess isWindows ifTrue: [
-		envPrefix := 'set GIT_USERNAME=' , GitUsername , ' && set GIT_PASSWORD=' , GitPassword , ' &&'.
+		envPrefix := 'set GITHUB_USER=' , GitUsername , ' && set GITHUB_PASSWORD=' , GitPassword , ' &&'.
 	] ifFalse: [
-		envPrefix := 'GIT_USERNAME=' , GitUsername , ' GIT_PASSWORD=' , GitPassword.
+		envPrefix := 'GITHUB_USER=' , GitUsername , ' GITHUB_PASSWORD=' , GitPassword.
 	].
 	"&& is carefully chosen to work on Windows and Unix"
 	self osCommand: 'cd ' , directory pathName , ' && ' , envPrefix , ' hub fork'.
