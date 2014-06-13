@@ -7,6 +7,7 @@ fork
 		envPrefix := 'GITHUB_USER=' , GitUsername , ' GITHUB_PASSWORD=' , GitPassword.
 	].
 	"&& is carefully chosen to work on Windows and Unix"
+	self gitCommand: 'config hub.protocol https'.
 	self osCommand: 'cd ' , directory pathName , ' && ' , envPrefix , ' hub fork'.
 	"XXX maybe not override origin"
-	self gitCommand: 'remote set-url origin https://github.com/' , GitUsername , '/' , (self project: GitUsername).
+	self gitCommand: 'branch --set-upstream-to ', GitUsername , '/master'.
