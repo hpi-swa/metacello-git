@@ -1,0 +1,1 @@
+Pushes each commit directly to Git.

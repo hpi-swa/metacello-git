@@ -1,3 +1,7 @@
 actions
 refresh
-	UIManager default informUser: (self updateString) during: [self gitCommand: 'pull'].
+
+	super refresh.
+	UIManager default
+		informUser: self updateString
+		during: [self gitCommand: 'pull'].

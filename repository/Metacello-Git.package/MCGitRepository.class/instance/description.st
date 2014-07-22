@@ -1,3 +1,4 @@
 displaying
 description
-	 ^ 'git:/' , directory pathName
+	
+	 ^ 'git://' , directory pathName 

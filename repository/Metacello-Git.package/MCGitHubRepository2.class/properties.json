@@ -5,10 +5,10 @@
 	"classvars" : [
 		"GitPassword",
 		"GitUsername" ],
-	"commentStamp" : "",
+	"commentStamp" : "mt 7/22/2014 13:37",
 	"instvars" : [
 		 ],
-	"name" : "MCGithubRepository",
+	"name" : "MCGitHubRepository2",
 	"pools" : [
 		 ],
 	"super" : "MCRemoteGitRepository",

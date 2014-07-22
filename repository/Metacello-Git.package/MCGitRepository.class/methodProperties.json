@@ -3,11 +3,11 @@
 		"description" : "rl 6/9/2014 17:56",
 		"resetContactInfo" : "rl 6/11/2014 09:10" },
 	"instance" : {
-		"basicStoreVersion:" : "rl 6/10/2014 23:32",
-		"description" : "rl 6/9/2014 15:45",
-		"directory" : "rl 6/9/2014 15:50",
+		"basicStoreVersion:" : "mt 7/22/2014 15:24",
+		"description" : "mt 7/22/2014 14:47",
+		"directory" : "mt 7/22/2014 14:40",
 		"ensureContactInfo" : "rl 6/10/2014 23:18",
-		"gitCommand:" : "rl 6/12/2014 00:39",
-		"osCommand:" : "rl 6/13/2014 14:34",
-		"refresh" : "rl 6/9/2014 18:57",
+		"gitCommand:" : "mt 7/22/2014 16:56",
+		"osCommand:" : "mt 7/22/2014 14:19",
+		"refresh" : "mt 7/22/2014 14:57",
 		"updateString" : "rl 6/9/2014 18:57" } }

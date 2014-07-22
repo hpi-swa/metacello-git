@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"clone:" : "rl 6/10/2014 09:38",
-		"clone:to:" : "rl 6/23/2014 18:45",
+		"clone:" : "mt 7/22/2014 14:12",
+		"clone:to:" : "mt 7/22/2014 14:16",
 		"description" : "rl 6/9/2014 18:05",
-		"morphicConfigure" : "rl 6/23/2014 18:43" },
+		"morphicConfigure" : "mt 7/22/2014 14:13" },
 	"instance" : {
 		"basicStoreVersion:" : "rl 6/10/2014 09:39",
-		"refresh" : "rl 6/10/2014 09:40",
+		"description" : "mt 7/22/2014 14:48",
 		"remoteUrl" : "rl 6/10/2014 09:41",
 		"remoteUrl:" : "rl 6/9/2014 18:54",
 		"updateString" : "rl 6/12/2014 00:36" } }

@@ -5,7 +5,7 @@
 	"classvars" : [
 		"GitEmail",
 		"GitUser" ],
-	"commentStamp" : "",
+	"commentStamp" : "mt 7/22/2014 13:38",
 	"instvars" : [
 		 ],
 	"name" : "MCGitRepository",
