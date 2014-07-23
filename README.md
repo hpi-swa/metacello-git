@@ -21,7 +21,7 @@ There are three different repositories that exploit different stages of git func
 
 All replicate the Monticello *commit message* for git to avoid having to re-type it.
 All *pull* the current contents before writing the new contents into the file system.
-**Thanks to the way Monticello works, there will be a push for every commit.**
+**Thanks to the way Monticello works, there will be a push for each commit.**
 
 ## Clone
 
