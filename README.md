@@ -1,6 +1,6 @@
 # Git Support in Monticello
 
-This project extends [Squeak](www.squeak.org)'s code versioning tool *Monticello* to support git repositories.
+This project extends [Squeak](http://www.squeak.org)'s code versioning tool *Monticello* to support git repositories.
 
 It builds upon [filetree](https://github.com/dalehenrich/filetree), which allows for exporting source code from the Squeak image into the file system.
 Then, other tools may operate on that content such as regular git tool do.
