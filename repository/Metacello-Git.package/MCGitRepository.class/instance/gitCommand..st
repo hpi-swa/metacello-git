@@ -1,8 +1,8 @@
 private
 gitCommand: aString
 	| proc cmdLine |
-	cmdLine := self class gitPath, ' --git-dir="{1}/.git" --work-tree="{1}" {2}'
-		format: {directory pathName. aString}.
+	cmdLine := self class gitPath, (' --git-dir="{1}', FileDirectory slash, FileDirectory slash, '.git" --work-tree="{1}" {2}'
+		format: {directory pathName. aString}).
 	proc := self osCommand: cmdLine.
 	(proc exitStatus == 0) ifFalse: [
 		| cmd |
