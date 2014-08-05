@@ -1,6 +1,8 @@
 {
 	"class" : {
 		"description" : "rl 6/9/2014 17:56",
+		"gitPath" : "tfel 8/5/2014 09:36",
+		"gitPath:" : "tfel 8/5/2014 09:36",
 		"packageCache" : "mt 7/23/2014 09:57:06.929",
 		"resetContactInfo" : "rl 6/11/2014 09:10" },
 	"instance" : {
@@ -8,7 +10,7 @@
 		"description" : "mt 7/22/2014 14:47",
 		"directory" : "mt 7/22/2014 14:40",
 		"ensureContactInfo" : "rl 6/10/2014 23:18",
-		"gitCommand:" : "mt 7/22/2014 16:56",
+		"gitCommand:" : "tfel 8/5/2014 09:36",
 		"osCommand:" : "mt 7/22/2014 14:19",
 		"refresh" : "mt 7/22/2014 14:57",
 		"updateString" : "rl 6/9/2014 18:57" } }

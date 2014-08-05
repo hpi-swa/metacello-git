@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"GitEmail",
+		"GitPath",
 		"GitUser" ],
 	"commentStamp" : "mt 7/22/2014 13:38",
 	"instvars" : [
