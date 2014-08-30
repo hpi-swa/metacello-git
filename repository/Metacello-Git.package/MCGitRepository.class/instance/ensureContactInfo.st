@@ -2,9 +2,9 @@ authorization
 ensureContactInfo
 	GitUser ifNil: [
 		GitUser := FillInTheBlank request: 'Git user?'.
-		GitUser ifNil: [ ^false ].
+		GitUser ifEmpty: [ ^false ].
 		GitEmail := FillInTheBlank request: 'Git email?'.
-		GitEmail ifNil: [ ^false ].
+		GitEmail ifEmpty: [ ^false ].
 		self gitCommand: 'config --local user.name "' , GitUser , '"'.
 		self gitCommand: 'config --local user.email "' , GitEmail , '"'.
 	].
