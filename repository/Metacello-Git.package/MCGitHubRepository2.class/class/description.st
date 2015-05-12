@@ -1,4 +1,4 @@
 accessing
 description
 
-	^ 'Github'
+	^ 'GitHub (commit and push/fork)'
