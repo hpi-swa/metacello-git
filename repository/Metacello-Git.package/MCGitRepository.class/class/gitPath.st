@@ -2,7 +2,7 @@ preferences
 gitPath
 
 	<preference: 'Path to git binary'
-		category: 'GitHub'
+		category: 'Metacello'
 		description: ''
 		type: #String>
 	^ GitPath ifNil: ['git']

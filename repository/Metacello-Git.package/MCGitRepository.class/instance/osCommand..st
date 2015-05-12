@@ -1,7 +1,8 @@
 private
 osCommand: cmd
 	| proc |
-	Transcript show: 'Running ', cmd, '...'.
+	
+	Transcript showln: '[Metacello-Git] Running "', cmd, '"...'.
 	FileStream stderr reopen nextPutAll: '$ ' , cmd; cr.
 	Smalltalk platformName = 'Win32'
 		ifTrue: [

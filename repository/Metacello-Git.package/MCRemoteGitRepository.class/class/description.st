@@ -1,3 +1,4 @@
 accessing
 description
-	^'Git (remote)'
+
+	^'Git (commit and push)'

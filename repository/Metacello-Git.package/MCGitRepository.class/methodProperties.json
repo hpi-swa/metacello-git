@@ -1,16 +1,18 @@
 {
 	"class" : {
-		"description" : "rl 6/9/2014 17:56",
-		"gitPath" : "tfel 8/5/2014 09:36",
+		"description" : "mt 5/12/2015 11:51",
+		"gitCachePath" : "mt 5/12/2015 11:37",
+		"gitPath" : "mt 5/12/2015 11:09",
 		"gitPath:" : "tfel 8/5/2014 09:36",
-		"packageCache" : "mt 7/23/2014 09:57:06.929",
+		"packageCache" : "mt 5/12/2015 11:11",
 		"resetContactInfo" : "rl 6/11/2014 09:10" },
 	"instance" : {
 		"basicStoreVersion:" : "mt 2/11/2015 14:20",
 		"description" : "mt 7/22/2014 14:47",
 		"directory" : "mt 7/22/2014 14:40",
+		"directory:" : "mt 5/12/2015 12:29",
 		"ensureContactInfo" : "mt 8/30/2014 16:09:14.227",
 		"gitCommand:" : "mt 8/30/2014 13:45",
-		"osCommand:" : "tfel 8/5/2014 10:39",
+		"osCommand:" : "mt 5/12/2015 14:03",
 		"refresh" : "cc 1/8/2015 14:24",
 		"updateString" : "rl 6/9/2014 18:57" } }

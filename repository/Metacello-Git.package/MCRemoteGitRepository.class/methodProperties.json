@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"clone:" : "mt 7/22/2014 14:12",
-		"clone:to:" : "tfel 8/5/2014 09:44",
-		"description" : "rl 6/9/2014 18:05",
-		"morphicConfigure" : "mt 7/22/2014 14:13" },
+		"description" : "mt 5/12/2015 11:51",
+		"morphicConfigure" : "mt 5/12/2015 14:14" },
 	"instance" : {
-		"basicStoreVersion:" : "rl 6/10/2014 09:39",
-		"description" : "mt 7/23/2014 09:51",
+		"basicStoreVersion:" : "mt 5/12/2015 11:53",
+		"clone" : "mt 5/12/2015 14:14",
+		"description" : "mt 5/12/2015 14:16",
 		"refresh" : "cc 1/8/2015 14:24",
 		"remoteUrl" : "rl 6/10/2014 09:41",
 		"remoteUrl:" : "rl 6/9/2014 18:54",
-		"updateString" : "rl 6/12/2014 00:36" } }
+		"repositoryProperties" : "mt 5/12/2015 11:58",
+		"updateString" : "mt 5/12/2015 11:34" } }

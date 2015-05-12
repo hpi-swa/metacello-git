@@ -1,3 +1,4 @@
 accessing
 description
-	 ^ 'Git (local checkout)'.
+
+	 ^ 'Git (commit only)'

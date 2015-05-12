@@ -1,4 +1,4 @@
 displaying
 description
 	
-	 ^ '[GIT] ' , remoteUrl 
+	 ^ '[GIT] ' , remoteUrl, ' (', directory fullName, ')'
