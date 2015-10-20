@@ -5,7 +5,8 @@
 	"classvars" : [
 		"GitEmail",
 		"GitPath",
-		"GitUser" ],
+		"GitUser",
+		"PackagesFolderName" ],
 	"commentStamp" : "mt 7/22/2014 13:38",
 	"instvars" : [
 		 ],

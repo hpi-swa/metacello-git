@@ -5,4 +5,4 @@ directory: aDirectory
 	
 	directory in: [:dir |
 		directory exists ifFalse: [^ self].
-		(dir includesKey: 'repository') ifFalse: [dir createDirectory: 'repository']].
+		(dir includesKey: self class packagesFolderName) ifFalse: [dir createDirectory: self class packagesFolderName]].
