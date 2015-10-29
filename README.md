@@ -11,6 +11,19 @@ Authentication (HTTPS, SSH) is handled by git, not us.
 
 We have chosen the package name *Metacello-Git* to tie on [Metacello](https://github.com/dalehenrich/metacello-work)'s extensions for Monticello.
 
+##How to Install
+
+1. Get [Squeak 4.6 or later](http://www.squeak.org) with a recent [CogVM](http://www.mirandabanda.org/files/Cog/VM/) for your operating system.
+2. If not already integrated, load [Metacello](https://github.com/dalehenrich/metacello-work). Learn how it [works](https://github.com/dalehenrich/metacello-work/blob/master/docs/MetacelloUserGuide.md).
+3. Finally, load the project into your Squeak image using Metacello:
+
+```Smalltalk
+Metacello new
+  baseline: 'MetacelloGit';
+  repository: 'github://JumpIntoSqueak/metacello-git:master/repository';
+  load.
+```
+
 ## Monticello Repositories
 
 There are three different repositories that exploit different stages of git functionality:
