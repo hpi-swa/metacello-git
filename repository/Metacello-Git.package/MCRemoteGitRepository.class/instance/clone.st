@@ -1,6 +1,7 @@
 actions
 clone
 
+	| branch |
 	Transcript showln: '[Metacello-Git] Cloning ', self remoteUrl, ' to ', directory fullName.
 
 	directory exists ifTrue: [
@@ -10,6 +11,11 @@ clone
 			informUser: 'Deleting local checkout... ', directory fullName
 			during: [directory recursiveDelete]].
 	
+	branch := UIManager default
+		request: 'Which branch?'
+		initialAnswer: 'master'.
+	branch ifNil: [branch := 'master'].
+	
 	UIManager default
 		informUser: 'Cloning a git repository... ', self remoteUrl
 		during: [
@@ -17,7 +23,9 @@ clone
 	
 			self osCommand:
 				self class gitPath, 
-				' clone "', 
+				' clone -b "',
+				branch,
+				'" --single-branch "', 
 				self remoteUrl , '" "', 
 				directory fullName, '"'].
 	
