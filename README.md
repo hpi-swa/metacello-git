@@ -20,7 +20,7 @@ We have chosen the package name *Metacello-Git* to tie on [Metacello](https://gi
 ```Smalltalk
 Metacello new
   baseline: 'MetacelloGit';
-  repository: 'github://JumpIntoSqueak/metacello-git:master/repository';
+  repository: 'github://hpi-swa/metacello-git:master/repository';
   load.
 ```
 
